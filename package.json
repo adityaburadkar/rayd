@@ -1,0 +1,21 @@
+{
+  "name": "rayd",
+  "displayName": "RayD",
+  "description": "A dark and easy to use theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "RayD",
+        "uiTheme": "vs-dark",
+        "path": "./themes/RayD-color-theme.json"
+      }
+    ]
+  }
+}
