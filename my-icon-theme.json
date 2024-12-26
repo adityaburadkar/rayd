@@ -1,0 +1,19 @@
+{
+    "iconDefinitions": {
+      "file": {
+        "iconPath": "./icons/file-icon.svg" // Path to your custom file icon
+      }
+    },
+    "file": "file",
+    "fileExtensions": {
+      "txt": "file",    // Example: Associates .txt files with your custom icon
+      "py": "file",     // Example: Associates .py files with your custom icon
+      "cpp": "file",    // Example: Associates .cpp files with your custom icon
+      "js": "file"      // Example: Associates .js files with your custom icon
+    },
+    "languageIds": {
+      "python": "file", // Python files associated by language ID
+      "javascript": "file"
+    }
+  }
+  

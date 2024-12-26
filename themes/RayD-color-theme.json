@@ -1,155 +1,102 @@
 {
-	"name": "RayD",
-	"type": "dark",
-	"colors": {
-		"editor.background": "#1E1E1E",  // Dark, sophisticated background
-		"editor.foreground": "#D3C8A1",  // Soft beige text for easy reading
-		"editor.selectionBackground": "#4F7B7F",  // Calming teal selection
-		"editor.lineHighlightBackground": "#2B2B2B",  // Slightly lighter gray to highlight current line
-		"editorCursor.foreground": "#8C6BB1",  // Muted lavender cursor for calmness
-		"editor.findMatchBackground": "#F39C79",  // Gentle coral for find matches
-		"editor.findMatchHighlightBackground": "#C79F3E08",  // Gold-like for highlighted finds
-		"editorWhitespace.foreground": "#E4A897",  // Muted peach for whitespace
-		"editorIndentGuide.background1": "#3A3A3A",  // Darker gray for indent guides
-		"editorLineNumber.foreground": "#C79F3E",  // Subtle gold for line numbers
-		"editor.selectionHighlightBackground": "#4F7B7F08",  // Calming teal for selected text
-		"editor.rangeHighlightBackground": "#3A3A3A08",  // Darker gray for range highlights
-		"editorGutter.background": "#1E1E1E",  // Matches background color for gutter
-		"editorGutter.modifiedBackground": "#E4A897",  // Muted peach for modified lines
-		"editorGutter.addedBackground": "#4F7B7F",  // Calming teal for added lines
-		"editorGutter.deletedBackground": "#F39C79",  // Soft coral for deleted lines
-		"activityBar.background": "#1E1E1E",  // Dark background for activity bar
-		"activityBar.foreground": "#D3C8A1",  // Soft beige text on activity bar
-		"activityBarBadge.background": "#8C6BB1",  // Lavender for activity bar badges
-		"sideBar.background": "#1E1E1E",  // Dark background for sidebar
-		"sideBar.foreground": "#D3C8A1",  // Beige text in sidebar
-		"sideBarSectionHeader.background": "#4F7B7F",  // Teal for section headers
-		"sideBarSectionHeader.foreground": "#D3C8A1",  // Beige for section header text
-		"statusBar.background": "#2B2B2B",  // Dark gray for status bar background
-		"statusBar.foreground": "#D3C8A1",  // Beige for status bar text
-		"statusBarItem.hoverBackground": "#8C6BB1",  // Lavender for hover effect on status bar items
-		"titleBar.activeBackground": "#4F7B7F",  // Teal for active title bar
-		"titleBar.activeForeground": "#D3C8A1",  // Beige for title bar text
-		"panel.background": "#1E1E1E",  // Dark background for panel
-		"panel.border": "#C79F3E",  // Gold for panel border
-		"panelTitle.activeForeground": "#D3C8A1",  // Beige for panel title
-		"terminal.background": "#1E1E1E",  // Dark background for terminal
-		"terminal.foreground": "#D3C8A1",  // Beige text in terminal
-		"terminalCursor.foreground": "#8C6BB1",  // Lavender cursor for terminal
-		"terminal.ansiBlack": "#1E1E1E",  // Background for black in terminal
-		"terminal.ansiWhite": "#D3C8A1",  // White for terminal output
-		"terminal.ansiRed": "#F39C79",  // Coral for terminal output
-		"terminal.ansiGreen": "#4F7B7F",  // Teal for terminal output
-		"terminal.ansiYellow": "#E4A897",  // Muted peach for terminal output
-		"terminal.ansiBlue": "#8C6BB1",  // Lavender for terminal output
-		"terminal.ansiMagenta": "#8C6BB1",  // Lavender for terminal output
-		"terminal.ansiCyan": "#4F7B7F",  // Teal for terminal output
-		"terminal.ansiBrightBlack": "#3A3A3A",  // Slightly lighter gray for terminal background
-		"terminal.ansiBrightWhite": "#D3C8A1",  // Beige for terminal output
-		"terminal.ansiBrightRed": "#F39C79",  // Brighter coral for terminal
-		"terminal.ansiBrightGreen": "#4F7B7F",  // Brighter teal for terminal
-		"terminal.ansiBrightYellow": "#E4A897",  // Brighter peach for terminal
-		"terminal.ansiBrightBlue": "#8C6BB1",  // Brighter lavender for terminal
-		"terminal.ansiBrightMagenta": "#8C6BB1",  // Brighter lavender for terminal
-		"terminal.ansiBrightCyan": "#4F7B7F"  // Brighter teal for terminal
-	  },
-	  "tokenColors": [
-		{
-		  "scope": ["comment", "comment.block.documentation"],
-		  "settings": {
-			"foreground": "#E4A897",
-			"fontStyle": "italic"
-		  }
-		},
-		{
-		  "scope": ["keyword", "storage", "variable.language"],
-		  "settings": {
-			"foreground": "#8C6BB1"
-		  }
-		},
-		{
-		  "scope": ["string", "constant.other.symbol"],
-		  "settings": {
-			"foreground": "#F39C79"
-		  }
-		},
-		{
-		  "scope": ["variable", "variable.other.local"],
-		  "settings": {
-			"foreground": "#E4A897"
-		  }
-		},
-		{
-		  "scope": ["constant.numeric", "constant.character"],
-		  "settings": {
-			"foreground": "#F39C79"
-		  }
-		},
-		{
-		  "scope": ["entity.name.function", "variable.other.function"],
-		  "settings": {
-			"foreground": "#8C6BB1"
-		  }
-		},
-		{
-		  "scope": ["meta.class", "entity.name.class"],
-		  "settings": {
-			"foreground": "#E4A897"
-		  }
-		},
-		{
-		  "scope": ["entity.name.tag", "entity.other.attribute-name"],
-		  "settings": {
-			"foreground": "#4F7B7F"
-		  }
-		},
-		{
-		  "scope": ["variable.other", "variable.other.property"],
-		  "settings": {
-			"foreground": "#F39C79"
-		  }
-		},
-		{
-		  "scope": ["keyword.control", "keyword.operator", "storage.type"],
-		  "settings": {
-			"foreground": "#8C6BB1"
-		  }
-		},
-		{
-		  "scope": ["constant.language", "variable.language"],
-		  "settings": {
-			"foreground": "#E4A897"
-		  }
-		},
-		{
-		  "scope": ["punctuation.definition.parameters", "punctuation.definition.arguments"],
-		  "settings": {
-			"foreground": "#4F7B7F"
-		  }
-		},
-		{
-		  "scope": ["meta.function-call", "meta.block"],
-		  "settings": {
-			"foreground": "#8C6BB1"
-		  }
-		},
-		{
-		  "scope": ["support.type", "support.class", "support.other"],
-		  "settings": {
-			"foreground": "#E4A897"
-		  }
-		},
-		{
-		  "scope": ["text.html.basic", "text.xml.basic"],
-		  "settings": {
-			"foreground": "#E4A897"
-		  }
-		},
-		{
-		  "scope": ["markup.underline.link", "markup.bold"],
-		  "settings": {
-			"foreground": "#E4A897"
-		  }
-		}
-	  ]
-	}
+  "name": "RayD",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#1C1C1C",
+    "editor.foreground": "#D1D1D1",
+    "editor.lineHighlightBackground": "#2E2E2E",
+    "editor.selectionBackground": "#4D6D88",
+    "editorCursor.foreground": "#E0E0E0",
+
+    "activityBar.background": "#2D2D2D",
+    "activityBar.foreground": "#D1D1D1",
+    "activityBarBadge.background": "#4E727C",
+    "activityBarBadge.foreground": "#E0E0E0",
+
+    "sideBar.background": "#2D2D2D",
+    "sideBar.foreground": "#B0B0B0",
+    "sideBarSectionHeader.background": "#4A4A4A",
+    "sideBarSectionHeader.foreground": "#D1D1D1",
+
+    "titleBar.activeBackground": "#2D2D2D",
+    "titleBar.activeForeground": "#D1D1D1",
+
+    "statusBar.background": "#3A3A3A",
+    "statusBar.foreground": "#D1D1D1",
+    "statusBar.debuggingBackground": "#7A9E7D",
+    "statusBar.debuggingForeground": "#E0E0E0",
+
+    "tab.activeBackground": "#2D2D2D",
+    "tab.inactiveBackground": "#353535",
+    "tab.activeForeground": "#D1D1D1",
+    "tab.inactiveForeground": "#8A8A8A",
+
+    "terminal.background": "#1C1C1C",
+    "terminal.foreground": "#D1D1D1",
+    "terminalCursor.background": "#E0E0E0",
+    "terminalCursor.foreground": "#E0E0E0",
+
+    "panel.background": "#2D2D2D",
+    "panel.border": "#3A3A3A",
+
+    "editorGroupHeader.tabsBackground": "#2D2D2D",
+    "editorGroupHeader.tabsBorder": "#3A3A3A"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#B4A594",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "string",
+      "settings": {
+        "foreground": "#FF9A6A"
+      }
+    },
+    {
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#A3B9D4"
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#A3B9D4"
+      }
+    },
+    {
+      "scope": "constant",
+      "settings": {
+        "foreground": "#A3B9D4"
+      }
+    },
+    {
+      "scope": "function",
+      "settings": {
+        "foreground": "#A3B9D4"
+      }
+    },
+    {
+      "scope": "type",
+      "settings": {
+        "foreground": "#B28DFF"
+      }
+    },
+    {
+      "scope": "punctuation",
+      "settings": {
+        "foreground": "#A3B9D4"
+      }
+    },
+    {
+      "scope": "operator",
+      "settings": {
+        "foreground": "#A3B9D4"
+      }
+    }
+  ]
+}
