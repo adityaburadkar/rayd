@@ -1,102 +1,91 @@
 {
-  "name": "RayD",
-  "type": "dark",
-  "colors": {
-    "editor.background": "#1C1C1C",
-    "editor.foreground": "#D1D1D1",
-    "editor.lineHighlightBackground": "#2E2E2E",
-    "editor.selectionBackground": "#4D6D88",
-    "editorCursor.foreground": "#E0E0E0",
-
-    "activityBar.background": "#2D2D2D",
-    "activityBar.foreground": "#D1D1D1",
-    "activityBarBadge.background": "#4E727C",
-    "activityBarBadge.foreground": "#E0E0E0",
-
-    "sideBar.background": "#2D2D2D",
-    "sideBar.foreground": "#B0B0B0",
-    "sideBarSectionHeader.background": "#4A4A4A",
-    "sideBarSectionHeader.foreground": "#D1D1D1",
-
-    "titleBar.activeBackground": "#2D2D2D",
-    "titleBar.activeForeground": "#D1D1D1",
-
-    "statusBar.background": "#3A3A3A",
-    "statusBar.foreground": "#D1D1D1",
-    "statusBar.debuggingBackground": "#7A9E7D",
-    "statusBar.debuggingForeground": "#E0E0E0",
-
-    "tab.activeBackground": "#2D2D2D",
-    "tab.inactiveBackground": "#353535",
-    "tab.activeForeground": "#D1D1D1",
-    "tab.inactiveForeground": "#8A8A8A",
-
-    "terminal.background": "#1C1C1C",
-    "terminal.foreground": "#D1D1D1",
-    "terminalCursor.background": "#E0E0E0",
-    "terminalCursor.foreground": "#E0E0E0",
-
-    "panel.background": "#2D2D2D",
-    "panel.border": "#3A3A3A",
-
-    "editorGroupHeader.tabsBackground": "#2D2D2D",
-    "editorGroupHeader.tabsBorder": "#3A3A3A"
-  },
-  "tokenColors": [
-    {
-      "scope": "comment",
-      "settings": {
-        "foreground": "#B4A594",
-        "fontStyle": "italic"
-      }
+    "name": "RayD",
+    "type": "dark",
+    "colors": {
+      "editor.background": "#000814", // Darkest blue
+      "editor.foreground": "#D4D4D4",
+      "editorLineNumber.foreground": "#4B6478", // Pastel grey-blue
+      "editorLineNumber.activeForeground": "#A8DADC", // Pastel teal
+      "editorCursor.foreground": "#F4A261", // Pastel orange
+      "editor.selectionBackground": "#001D3D", // Slightly lighter darkest blue
+      "editor.wordHighlightBackground": "#00356608", // Deeper blue for word highlights
+      "editor.findMatchBackground": "#778DA9",
+      "editor.findMatchHighlightBackground": "#3D5A8008",
+      "editorBracketMatch.background": "#003566",
+      "editorBracketMatch.border": "#F4A261",
+      "editorGutter.background": "#000814",
+      "activityBar.background": "#000814",
+      "activityBar.foreground": "#A8DADC", // Pastel teal
+      "activityBarBadge.background": "#E63946", // Pastel red
+      "activityBarBadge.foreground": "#F1FAEE", // Pastel white
+      "sideBar.background": "#000814",
+      "sideBar.foreground": "#D4D4D4",
+      "statusBar.background": "#000814",
+      "statusBar.foreground": "#A8DADC",
+      "titleBar.activeBackground": "#000814",
+      "titleBar.activeForeground": "#A8DADC"
     },
-    {
-      "scope": "string",
-      "settings": {
-        "foreground": "#FF9A6A"
+    "tokenColors": [
+      {
+        "scope": ["comment"],
+        "settings": {
+          "foreground": "#778DA9" // Pastel grey-blue for comments
+        }
+      },
+      {
+        "scope": ["keyword", "storage", "type.primitive"],
+        "settings": {
+          "foreground": "#C084FC" // Pastel purple for int, char
+        }
+      },
+      {
+        "scope": ["entity.name.function"],
+        "settings": {
+          "foreground": "#A8DADC" // Pastel teal for main
+        }
+      },
+      {
+        "scope": ["variable.parameter", "keyword.operator.comparison", "keyword.operator.assignment"],
+        "settings": {
+          "foreground": "#F1FAEE" // Pastel white for argc, <, =
+        }
+      },
+      {
+        "scope": ["constant.numeric"],
+        "settings": {
+          "foreground": "#FFE194" // Pastel yellow for digits
+        }
+      },
+      {
+        "scope": ["string"],
+        "settings": {
+          "foreground": "#F4A261" // Pastel orange for strings
+        }
+      },
+      {
+        "scope": ["variable", "identifier"],
+        "settings": {
+          "foreground": "#D4D4D4" // Neutral for variables
+        }
+      },
+      {
+        "scope": ["function"],
+        "settings": {
+          "foreground": "#84A59D" // Pastel green-blue for functions
+        }
+      },
+      {
+        "scope": ["constant"],
+        "settings": {
+          "foreground": "#F28482" // Pastel coral for constants
+        }
+      },
+      {
+        "scope": ["type", "class"],
+        "settings": {
+          "foreground": "#98C1D9" // Pastel cyan for types and classes
+        }
       }
-    },
-    {
-      "scope": "keyword",
-      "settings": {
-        "foreground": "#A3B9D4"
-      }
-    },
-    {
-      "scope": "variable",
-      "settings": {
-        "foreground": "#A3B9D4"
-      }
-    },
-    {
-      "scope": "constant",
-      "settings": {
-        "foreground": "#A3B9D4"
-      }
-    },
-    {
-      "scope": "function",
-      "settings": {
-        "foreground": "#A3B9D4"
-      }
-    },
-    {
-      "scope": "type",
-      "settings": {
-        "foreground": "#B28DFF"
-      }
-    },
-    {
-      "scope": "punctuation",
-      "settings": {
-        "foreground": "#A3B9D4"
-      }
-    },
-    {
-      "scope": "operator",
-      "settings": {
-        "foreground": "#A3B9D4"
-      }
-    }
-  ]
-}
+    ]
+  }
+  
