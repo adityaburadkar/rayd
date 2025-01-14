@@ -4,6 +4,7 @@
   "description": "A dark and easy to use theme",
   "version": "0.0.1",
   "repository":"https://github.com/adityaburadkar/rayd.git",
+  "publisher": "AdityaBuradkar001",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -16,7 +17,6 @@
         "label": "RayD",
         "uiTheme": "vs-dark",
         "path": "./themes/RayD-color-theme.json",
-        "publisher": "AdityaBuradkar001",
         "license": "MIT"
         
       }
