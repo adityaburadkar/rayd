@@ -15,6 +15,7 @@
         "label": "RayD",
         "uiTheme": "vs-dark",
         "path": "./themes/RayD-color-theme.json",
+        "publisher": "AdityaBuradkar001",
         "license": "MIT",
         "repository": {
           "type": "git",
