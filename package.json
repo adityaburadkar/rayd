@@ -3,6 +3,7 @@
   "displayName": "RayD",
   "description": "A dark and easy to use theme",
   "version": "0.0.1",
+  "repository":"https://github.com/adityaburadkar/rayd.git",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -16,8 +17,8 @@
         "uiTheme": "vs-dark",
         "path": "./themes/RayD-color-theme.json",
         "publisher": "AdityaBuradkar001",
-        "license": "MIT",
-        "repository":"https://github.com/adityaburadkar/rayd.git"
+        "license": "MIT"
+        
 
       }
     ]
