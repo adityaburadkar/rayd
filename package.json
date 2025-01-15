@@ -15,7 +15,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Quant",
+        "label": "DEC Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/RayD-color-theme.json",
         "license": "MIT"
