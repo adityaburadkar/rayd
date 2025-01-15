@@ -1,6 +1,6 @@
 {
-  "name": "dectheme",
-  "displayName": "DEC Theme",
+  "name": "decatheme",
+  "displayName": "DECA Theme",
   "description": "A dark and easy to use theme",
   "version": "0.0.4",
   "repository":"https://github.com/adityaburadkar/rayd.git",
@@ -15,7 +15,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "DEC Theme",
+        "label": "DECA Theme",
         "uiTheme": "vs-dark",
         "path": "./themes/RayD-color-theme.json",
         "license": "MIT"
