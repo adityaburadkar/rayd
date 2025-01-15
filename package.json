@@ -1,5 +1,5 @@
 {
-  "name": "rayd",
+  "name": "quant",
   "displayName": "Quant",
   "description": "A dark and easy to use theme",
   "version": "0.0.3",
@@ -15,7 +15,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "RayD",
+        "label": "Quant",
         "uiTheme": "vs-dark",
         "path": "./themes/RayD-color-theme.json",
         "license": "MIT"
